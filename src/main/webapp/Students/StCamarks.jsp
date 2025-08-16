@@ -16,7 +16,14 @@
 		</nav>
 		
 		
-<div id="maindiv" style="margin:0px;height:900px;border: 5px solid white;">
+<div id="maindiv" style="margin:0px;height:900px;border: 5px solid white;
+                background-image: url('../images/backwebsite.jpg');
+			    width:auto;
+			    background-size: cover;
+			    background-position: center;
+			    background-repeat: no-repeat;
+			    background-attachment: fixed;
+			    height:750px;">
 		        <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;border-bottom:10px solid white;border-right:none;border-left:none;">
 					     <img src="../images/thelogo.png" style="width: 60px;
 																    height: 60px;
@@ -46,8 +53,8 @@
 							    place-items: center;
 							    height: auto;
 							    ">
-							
-		            		<h1>CA (Continuous Assessment) Marks</h1>
+		            		<span style="font-size:55px;"><b>Semester First</b></span>
+		            		<span style="font-size:45px;">Continuous Assessment(CA) Marks</span><br>
                 	
 			                <table border="n" style="width:95%;border:1px solid black;text-align:center;border-radius:5px;">
 			                
@@ -60,28 +67,28 @@
 			                    </tr>
 		                		<tr>
 				                	<td style="font-size:20px;padding:10px;">Digital Control System</td>
-				                	<td style="font-size:20px;">22</td>
-				                	<td style="font-size:20px;">22</td>
-				                	<td style="font-size:20px;">24</td>
-				                	<td style="font-size:20px;">23</td>
+				                	<td style="font-size:20px;"> </td>
+				                	<td style="font-size:20px;"> </td>
+				                	<td style="font-size:20px;"> </td>
+				                	<td style="font-size:20px;"> </td>
 				                	
 			                	
 			                	</tr>
 			                	<tr>
 				                	<td style="font-size:20px;padding:10px;">Industrial </td>
-				                	<td style="font-size:20px;">CA-1</td>
-				                	<td style="font-size:20px;">2</td>
-				                	<td style="font-size:20px;">CA-3</td>
-				                	<td style="font-size:20px;">21</td>
+				                	<td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
 				                	
 			                	
 			                	</tr>
 			                	<tr>
 				                	<td style="font-size:20px;padding:10px;">Power System</td>
-				                	<td style="font-size:20px;">CA-1</td>
-				                	<td style="font-size:20px;">CA-2</td>
-				                	<td style="font-size:20px;">CA-3</td>
-				                	<td style="font-size:20px;">23</td>
+				                	<td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
 				                	
 			                	
 			                	</tr>

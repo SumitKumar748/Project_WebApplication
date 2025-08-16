@@ -38,79 +38,79 @@
     			    background-attachment: fixed;
     			    border:5px solid white;
     			   ">
+            <br><br>
 
 
-
-	         <div  style="height:auto;width: 65%;
-							    margin: auto;
-							    margin-top: 5%;
+	         <div  style="height:880px;width: 75%;
+                                margin:auto;
 							    border-radius: 10px;
 						    	background: white;
+						    	display: grid;
+                                justify-content: center;
+                                align-items: center;
 							    ">
 
-		               		<br><br>
-		               		
-		               		
-		             <div style="margin:auto;width:auto;
-               					display: flex;
-							    justify-content: center; 
-							    align-items: center; ">
-							<img src="../images/thelogo.png" style="width: 100px;
-                                									height: 90px;
-                                									background-color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							<img src="../images/MAKAUT.png" style="width: 65%;
-														    	height: 95px;">
-		             </div>
-		             <br>
-                	<div style="margin:auto;width:80%;display: grid;justify-content:center;text-align:center;">
-                	        <h2>Semester 1 </h2>
-			                <table border="n" style="text-align:center;font:15px;padding:20px;border:5px double red;width:95%;">
-		                		<tr >
-                                    <th style="font-size:25px;padding:5px;">Subjects</th>
-                                    <th style="font-size:25px;padding:5px;">Subject Code</th>
-                                    <th style="font-size:25px;padding:5px;">Credit</th>
-                                </tr>
+		               		<br>
+		             <div style=" margin:auto;
+                                 display: flex;
+                                 justify-content: center;
+                                 align-items: center; ">
+                             <img src="../images/thelogo.png" style="width: 130px;
+                                                                     height: 100px;
+                                                                     background-color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             <img src="../images/MAKAUT.png" style="width:790px;
+                                                                 height: 100px;">
+                     </div>
 
-                                <tr>
-                                    <td style="font-size:20px;padding:5px;">Physics-I </td>
-                                    <td style="font-size:20px;padding:5px;">(BS-PH101)</td>
-                                    <td style="font-size:20px;padding:5px;"> 4</td>
-                                </tr>
+                    <table border="n" style="text-align:center;font:15px;">
+                        <tr>
+                            <th style="font-size:25px;width:70%;padding:35px;">Subjects</th>
+                            <th style="font-size:25px;width:30%;padding:20px;">Subject Code</th>
+                            <th style="font-size:25px;width:20%;padding:20px;">Credit</th>
+                        </tr>
 
-                                <tr>
-                                    <td style="font-size:20px;padding:5px;">Chemistry-I </td>
-                                    <td style="font-size:20px;padding:5px;">(BS-CH101)</td>
-                                    <td style="font-size:20px;padding:5px;"> 4</td></tr>
-                                <tr>
-                                    <td style="font-size:20px;padding:5px;">Mathematics-I </td>
-                                    <td style="font-size:20px;padding:5px;">(BS-M101)</td>
-                                    <td style="font-size:20px;padding:5px;"> 4</td>
-                                </tr>
-                                <tr>
-                                    <td style="font-size:20px;padding:5px;">Basic Electrical Engineering </td>
-                                    <td style="font-size:20px;padding:5px;">(ES-EE101)</td>
-                                    <td style="font-size:20px;padding:5px;"> 4</td>
-                                </tr>
-                                <tr>
-                                    <td style="font-size:20px;padding:5px;">Physics-I Laboratory </td>
-                                    <td style="font-size:20px;padding:5px;">(BS-PH191)</td>
-                                    <td style="font-size:20px;padding:5px;"> 1.5</td>
-                                </tr>
-                                <tr>
-                                    <td style="font-size:20px;padding:5px;">Chemistry-I Laboratory </td>
-                                    <td style="font-size:20px;padding:5px;">(BS-CH191)</td>
-                                    <td style="font-size:20px;padding:5px;"> 1.5</td>
-                                </tr>
-                                <tr>
-                                    <td style="font-size:20px;padding:5px;"> Basic Electrical Engineering Laboratory </td>
-                                    <td style="font-size:20px;padding:5px;">(ES-EE291)</td>
-                                    <td style="font-size:20px;padding:5px;"> 1</td>
-                                </tr>
-			                	
-	                		</table>
+                        <tr style="font-size:20px;">
+                            <td style="padding:20px;">Physics-I </td>
+                            <td>(BS-PH101)</td>
+                            <td> 4</td>
+                        </tr>
 
-                	</div>
-		                <br><br><br>
+                        <tr style="font-size:20px;">
+                            <td style="padding:20px;">Chemistry-I </td>
+                            <td>(BS-CH101)</td>
+                            <td> 4</td></tr>
+                        <tr style="font-size:20px;">
+                            <td style="padding:20px;">Mathematics-I </td>
+                            <td>(BS-M101)</td>
+                            <td> 4</td>
+                        </tr>
+                        <tr style="font-size:20px;">
+                            <td style="padding:20px;">Basic Electrical Engineering </td>
+                            <td>(ES-EE101)</td>
+                            <td> 4</td>
+                        </tr>
+                        <tr style="font-size:20px;">
+                            <td style="padding:20px;">Physics-I Laboratory </td>
+                            <td>(BS-PH191)</td>
+                            <td> 1.5</td>
+                        </tr>
+                        <tr style="font-size:20px;">
+                            <td style="padding:20px;">Chemistry-I Laboratory </td>
+                            <td>(BS-CH191)</td>
+                            <td> 1.5</td>
+                        </tr>
+                        <tr style="font-size:20px;">
+                            <td style="padding:20px;"> Basic Electrical Engineering Laboratory </td>
+                            <td>(ES-EE291)</td>
+                            <td> 1</td>
+                        </tr>
+
+                    </table>
+
+
+
+                                	<br><br><br>
+
 		                
 				       
         </div>
