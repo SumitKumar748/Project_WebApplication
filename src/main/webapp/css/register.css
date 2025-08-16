@@ -1,0 +1,148 @@
+@charset "ISO-8859-1";
+#maindiv{
+    max-width:1980px;
+    height:1080px;
+    
+    margin:auto;
+ 	/*background-color: linear-gradient(-135deg, #71b7e6, #9b59b6);*/
+}
+
+.d1{
+    display: flex;
+    margin: auto;
+    background-color: #deb887;
+    border-radius: 5px;
+	background-size: cover; 
+
+}
+.img1{
+    width: 35=px;
+    height: 35px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom: auto;
+}
+.d1 h1{
+    margin-right: auto;
+}
+.d2{
+    width: 100%;
+  height: 10px;
+  border-width: 5px;
+  background-color: rgb(209, 200, 204);
+
+}
+
+.mcd3{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    
+}
+.mcd3 .mcd33{
+    margin: auto;
+    font-size: 20px;
+    color:rgb(103, 12, 88);
+}
+
+.mcd3 .mcd33 :hover{
+    transform:scale(1.08);
+    color:yellow;
+}
+#ap{
+	font-weight:lighter;
+	font-size:25px;
+}
+#ap1{
+	font-weight:bolder;
+	font-size:20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.container
+{
+  margin-top:5px;
+  max-width: 800px;
+  width: 50%;
+  background-color:#fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  
+}
+.container:hover{
+    transform:scale(1.02);
+}
+
+
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 25px 0 25px 0;
+  padding-right: 17px;
+}
+
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+
+
+
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+
+#selectdepart{
+  height: 48px;
+  width: 105%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  }
+ 
+ 
+ 
+ 
+ 
