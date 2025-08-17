@@ -10,7 +10,7 @@
 <title>Dashboard</title>
 </head>
 
-<body style="background-color: #B2B5E0;">
+<body style="max-width:1770px;max-height:980px;">
 
 		 <nav style="display:flex;justify-content:right; gap:4.5rem;padding:10px;font-size:18px;background-color:black;border:5px solid white;border-bottom:none;">
 						  <a href="tlogin.jsp" style="text-decoration:none;color:white;">Sign Out</a>
@@ -27,8 +27,6 @@
 						<div style="display:flex;justify-content:center;flex-direction:column;">
 
 					     <label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
-
-
 
 					     <label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
 				    	</div>
@@ -53,25 +51,21 @@
 				<br><br><br>
 				<div class="menu" style="width:80%;">
 
-								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;padding-right:2px;margin:auto;width:40%;" onclick="window.location.href='StMyCredential.jsp';">
+								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;padding-right:2px;margin:auto;width:40%;" onclick="window.location.href='Teacher/ThMyCredential.jsp';">
 
 									<img src="images/credential.png" height="60px" width="65px" alt="image not available" style="margin-left:20px; padding:10px;">
 
 									<label style="width: 100%; margin:auto;margin-left:50px;font-size: 25px;cursor:pointer;">My Credentials</label>
 
 								</div>
-								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Students/StAllSubjects.jsp';">
-
-									<img src="images/subjects.jpg" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
-									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">My Subjects</label>
-
+								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Teacher/StAllSubjects.jsp';">
+									<img src="images/tsubjects.png" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
+									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Assigned Subjects</label>
 								</div>
-								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Students/StCamarks.jsp';">
-
-									<img src="images/marksscored.jpg" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
-									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">CA Marks</label>
-
-								</div>
+								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:24px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='';">
+                                    <img src="images/editdetail.png" height="53px" width="95px" alt="image not available" style="margin-left:20px;">
+                                    <label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Edit Credential</label>
+                                </div>
 
 				</div>
 
@@ -81,8 +75,8 @@
 
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;" onclick="window.location.href='Students/StPCAmarks.jsp';">
 
-									<img src="images/add.png" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
-									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">PCA Marks</label>
+									<img src="images/meeting.jpg" height="75px" width="85px" alt="image not available" style="margin-left:20px;">
+									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Online Meeting</label>
 
 								</div>
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='';">
@@ -93,8 +87,8 @@
 								</div>
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:24px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='';">
 
-									<img src="images/editdetail.png" height="53px" width="95px" alt="image not available" style="margin-left:20px;">
-									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Edit Credential</label>
+									<img src="images/syllabus.jpg" height="52px" width="95px" alt="image not available" style="margin-left:20px;">
+									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Syllabus Status</label>
 
 								</div>
 
@@ -127,9 +121,6 @@
 
 
 		</div>
-
-
-</div>
 
 </body>
 <footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:5px solid white;border-top:none;" >

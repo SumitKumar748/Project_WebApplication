@@ -16,7 +16,14 @@
 		</nav>
 		
 		
-<div id="maindiv" style="margin:0px;height:900px;border: 5px solid white;">
+<div id="maindiv" style="margin:0px;height:900px;border: 5px solid white;
+                background-image: url('../images/backwebsite.jpg');
+			    width:auto;
+			    background-size: cover;
+			    background-position: center;
+			    background-repeat: no-repeat;
+			    background-attachment: fixed;
+			    height:750px;">
 		        <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;border-bottom:10px solid white;border-right:none;border-left:none;">
 					     <img src="../images/thelogo.png" style="width: 60px;
 																    height: 60px;
@@ -57,19 +64,20 @@
 			                        <th style="font-size:22px;">PCA-2</th>
 			                    </tr>
 		                		<tr>
-				                	<td style="font-size:20px;padding:10px;">Digital Control System</td>
-				                	<td style="font-size:20px;">22</td>
-				                	<td style="font-size:20px;">22</td>
-				                	
-			                	
+				                	<td style="font-size:20px;padding:10px;">Physics-I Laboratory </td>
+				                	<td style="font-size:20px;"> </td>
+				                	<td style="font-size:20px;"> </td>
 			                	</tr>
 			                	<tr>
-				                	<td style="font-size:20px;padding:10px;">Industrial Automation</td>
-				                	<td style="font-size:20px;">21</td>
-				                	<td style="font-size:20px;">24</td>
-				                	
-			                	
+				                	<td style="font-size:20px;padding:10px;">Chemistry-I Laboratory</td>
+				                	<td style="font-size:20px;"> </td>
+				                	<td style="font-size:20px;"> </td>
 			                	</tr>
+			                	<tr>
+                                    <td style="font-size:20px;padding:10px;">Basic Electrical Engineering Laboratory</td>
+                                    <td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
+                                </tr>
 			                	
 			                	
 	                		</table>

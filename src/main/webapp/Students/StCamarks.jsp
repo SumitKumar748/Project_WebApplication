@@ -53,8 +53,8 @@
 							    place-items: center;
 							    height: auto;
 							    ">
-		            		<span style="font-size:55px;"><b>Semester First</b></span>
-		            		<span style="font-size:45px;">Continuous Assessment(CA) Marks</span><br>
+                            <br>
+		            		<span style="font-size:45px;"><b>Continuous Assessment(CA) Marks</b></span><br>
                 	
 			                <table border="n" style="width:95%;border:1px solid black;text-align:center;border-radius:5px;">
 			                
@@ -66,32 +66,33 @@
 			                        <th style="font-size:22px;">CA-4</th>
 			                    </tr>
 		                		<tr>
-				                	<td style="font-size:20px;padding:10px;">Digital Control System</td>
+				                	<td style="font-size:20px;padding:10px;">Physics-I</td>
 				                	<td style="font-size:20px;"> </td>
 				                	<td style="font-size:20px;"> </td>
 				                	<td style="font-size:20px;"> </td>
 				                	<td style="font-size:20px;"> </td>
-				                	
-			                	
 			                	</tr>
 			                	<tr>
-				                	<td style="font-size:20px;padding:10px;">Industrial </td>
+				                	<td style="font-size:20px;padding:10px;">Chemistry-I </td>
 				                	<td style="font-size:20px;"> </td>
                                     <td style="font-size:20px;"> </td>
                                     <td style="font-size:20px;"> </td>
                                     <td style="font-size:20px;"> </td>
-				                	
-			                	
 			                	</tr>
 			                	<tr>
-				                	<td style="font-size:20px;padding:10px;">Power System</td>
+				                	<td style="font-size:20px;padding:10px;">Mathematics-I</td>
 				                	<td style="font-size:20px;"> </td>
                                     <td style="font-size:20px;"> </td>
                                     <td style="font-size:20px;"> </td>
                                     <td style="font-size:20px;"> </td>
-				                	
-			                	
 			                	</tr>
+			                	<tr>
+                                    <td style="font-size:20px;padding:10px;">Basic Electrical Engineering</td>
+                                    <td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
+                                    <td style="font-size:20px;"> </td>
+                                </tr>
 			                	
 	                		</table>
 	                		

@@ -8,20 +8,11 @@
 <link href="css/allinone.css" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/png" href="images/icon.ico">
 </head>
-<body style="background-color: #B2B5E0;margin:0px;max-width:1980px;">
-<%
-String studentid=(String) session.getAttribute("studentid");
-String studentname=(String) session.getAttribute("studentname");
-String parentname=(String) session.getAttribute("parentname");
-String emailid=(String) session.getAttribute("emailid");
-String phonenumber=(String) session.getAttribute("phonenumber");
-String department=(String) session.getAttribute("department");
-String gender=(String) session.getAttribute("gender");
+<body style="max-width:1980px;">
 
-%>
 		<nav style="display:flex;justify-content:right; gap:4rem;padding:10px;font-size:18px;background-color:black;border:5px solid white;border-bottom:none;">
-								  <a href="studentwelcome.jsp" style="text-decoration:none;color:white;">Dashboard</a>
-								  <a href="slogin.jsp" style="text-decoration:none;color:white;">Sign Out</a>
+              <a href="../teacherwelcome.jsp" style="text-decoration:none;color:white;">Dashboard</a>
+              <a href="../tlogin.jsp" style="text-decoration:none;color:white;">Sign Out</a>
 		</nav>
 
     
@@ -29,7 +20,7 @@ String gender=(String) session.getAttribute("gender");
 <div style="
 			    max-width:100%;
 			    border-top:none;
-			 	background-image:url('images/backwebsite.jpg');
+			 	background-image:url('../images/backwebsite.jpg');
 			    max-width:100%;;
 			    background-size: cover;
 			    background-position: center;
@@ -38,9 +29,8 @@ String gender=(String) session.getAttribute("gender");
 			    border:5px solid white;
 			   ">
 			<div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;border-bottom:10px solid white;border-right:none;border-left:none;">
-					     <img src="images/thelogo.png" style="width: 60px;
+					     <img src="../images/thelogo.png" style="width: 60px;
 																    height: 60px;
-																    
 																    background-color:white;">
 																    
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -63,7 +53,7 @@ String gender=(String) session.getAttribute("gender");
 							    
 		               		<br><br>
 		               		
-                            <div style=" margin:auto;
+		               		<div style=" margin:auto;
                                          display: flex;
                                          justify-content: center;
                                          align-items: center; ">
@@ -71,12 +61,12 @@ String gender=(String) session.getAttribute("gender");
                                                                          height: 100px;
                                                                          background-color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                  <img src="../images/MAKAUT.png" style="width:390px;height: 100px;">
-                            </div>
+                             </div>
 		                	<br><br>
 		                	<div style="width:40%;margin:auto;display: grid;
 									    place-items: center;
 									    height: auto;">
-		                		<img src="images/user.jpg" height="270px" width="275px" alt="Profile" style="width: 100%; height: 100%; object-fit: cover;display: block; margin: 0 auto;">
+		                		<img src="../images/user.jpg" height="270px" width="275px" alt="Profile" style="width: 100%; height: 100%; object-fit: cover;display: block; margin: 0 auto;">
 		                		<span style="font-size:15px;cursor:pointer;align:center;text-align:center;color:blue;">Click here to upload photo</span>
 		                	</div>
 		                	<br>
@@ -85,29 +75,34 @@ String gender=(String) session.getAttribute("gender");
 									    height: 200px;
 									    ">
 			                <table>
-			                	<tr>
-				                	<td style="font-size:20px;">Student Id: </td>
-				                	<th style="font-size:20px;"><%= studentid%></th>
-				                	</tr>
-				                	<tr>
-				                	<td style="font-size:20px;">Student Name: </td>
-				                	<th style="font-size:20px;"><%= studentname%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">Parent Name: </td>
-				                	<th style="font-size:20px;"><%= parentname%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">E-mail Id:</td>
-				                	<th style="font-size:20px;"><%= emailid%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">Phone Number: </td>
-				                	<th style="font-size:20px;"><%= phonenumber%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">Department: </td>
-				                	<th style="font-size:20px;"><%= department%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">Gender: </td>
-				                	<th style="font-size:20px;"><%= gender%></th>
-			                	</tr>
+                                <tr>
+                                    <td style="font-size:20px;">Teacher Id: </td>
+                                    <th style="font-size:20px;">9800981</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:20px;">Teacher Name: </td>
+                                    <th style="font-size:20px;">Dr. Sumit Kumar</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:20px;">Parent Name: </td>
+                                    <th style="font-size:20px;">Kumar Sumit</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:20px;">E-mail Id:</td>
+                                    <th style="font-size:20px;">teacher9800@gmail.com</th>
+                                </tr>
+                                <tr>
+                                <td style="font-size:20px;">Phone Number: </td>
+                                <th style="font-size:20px;">9876543211</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:20px;">Assigned Subject: </td>
+                                    <th style="font-size:20px;">Mathematics</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:20px;">Gender: </td>
+                                    <th style="font-size:20px;">Male</th>
+                                </tr>
 			                	
 			                </table>
 		                </div>
