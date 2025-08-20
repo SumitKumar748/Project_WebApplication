@@ -50,6 +50,7 @@ public class studentlogin extends HttpServlet
 						 session.setAttribute("phonenumber", rslt.getString("phonenumber"));
 						 session.setAttribute("department", rslt.getString("department"));
 						 session.setAttribute("gender", rslt.getString("gender"));
+						 session.setAttribute("dob", rslt.getDate("dateofbirth"));
 						 
 						 
 						 

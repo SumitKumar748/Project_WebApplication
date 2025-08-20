@@ -8,13 +8,17 @@
 <link href="css/allinone.css" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/png" href="images/icon.ico">
 </head>
-<body style="background-color: #B2B5E0;margin:0px;max-width:1980px;">
+<body style="margin:0px;max-width:1980px;">
 <%
 String studentid=(String) session.getAttribute("studentid");
 String studentname=(String) session.getAttribute("studentname");
 String parentname=(String) session.getAttribute("parentname");
 String emailid=(String) session.getAttribute("emailid");
 String phonenumber=(String) session.getAttribute("phonenumber");
+java.sql.Date dobDate = (java.sql.Date) session.getAttribute("dob");
+java.util.Date utilDate = new java.util.Date(dobDate.getTime());
+java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("yyyy-MM-dd");
+String dob = sdf.format(utilDate);
 String department=(String) session.getAttribute("department");
 String gender=(String) session.getAttribute("gender");
 
@@ -37,20 +41,21 @@ String gender=(String) session.getAttribute("gender");
 			    background-attachment: fixed;
 			    border:5px solid white;
 			   ">
-			<div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;border-bottom:10px solid white;border-right:none;border-left:none;">
-					     <img src="images/thelogo.png" style="width: 60px;
-																    height: 60px;
-																    
-																    background-color:white;">
-																    
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div style="display:flex;justify-content:center;flex-direction:column;">									  
+			<div  style="display:flex;justify-content:center;padding:20px;
+                 border:2px solid white;border-bottom:5px solid white;
+                 border-right:none;border-left:none;width:50%;margin:auto;">
+                 <img src="images/thelogo.png" style="width: 60px;
+                                                            height: 60px;
+                                                            background-color:white;border:2px solid red;">
 
-						     <label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
-	
-						     <label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
-				    	</div>
-			</div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div style="display:flex;justify-content:center;flex-direction:column;">
+
+                     <label style="font-size:40px;color:red;padding:auto;font-weight:bold;"> <b>TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</b></label>
+
+                     <label style="font-size:15px;color:red;padding:auto;display:flex;justify-content:right;"><b> Affiliated by MAKAUT</b></label>
+                </div>
+            </div>
 	     <br>
 	         
 
@@ -67,10 +72,10 @@ String gender=(String) session.getAttribute("gender");
                                          display: flex;
                                          justify-content: center;
                                          align-items: center; ">
-                                 <img src="../images/thelogo.png" style="width: 80px;
-                                                                         height: 100px;
-                                                                         background-color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                 <img src="../images/MAKAUT.png" style="width:390px;height: 100px;">
+                                 <img src="images/thelogo.png" style="width: 60px;
+                                                                         height: 80px;
+                                                                         background-color:white;">&nbsp;&nbsp;&nbsp;
+                                 <img src="images/MAKAUT.png" style="width:350px;height: 90px;">
                             </div>
 		                	<br><br>
 		                	<div style="width:40%;margin:auto;display: grid;
@@ -85,33 +90,41 @@ String gender=(String) session.getAttribute("gender");
 									    height: 200px;
 									    ">
 			                <table>
-			                	<tr>
-				                	<td style="font-size:20px;">Student Id: </td>
-				                	<th style="font-size:20px;"><%= studentid%></th>
-				                	</tr>
-				                	<tr>
-				                	<td style="font-size:20px;">Student Name: </td>
-				                	<th style="font-size:20px;"><%= studentname%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">Parent Name: </td>
-				                	<th style="font-size:20px;"><%= parentname%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">E-mail Id:</td>
-				                	<th style="font-size:20px;"><%= emailid%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">Phone Number: </td>
-				                	<th style="font-size:20px;"><%= phonenumber%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">Department: </td>
-				                	<th style="font-size:20px;"><%= department%></th>
-				                	</tr><tr>
-				                	<td style="font-size:20px;">Gender: </td>
-				                	<th style="font-size:20px;"><%= gender%></th>
-			                	</tr>
-			                	
+                                <tr>
+                                <td style="font-size:20px;">Student Id: </td>
+                                <th style="font-size:20px;"><%= studentid%></th>
+                                </tr>
+                                <tr>
+                                <td style="font-size:20px;">Student Name: </td>
+                                <th style="font-size:20px;"><%= studentname%></th>
+                                </tr>
+                                <tr>
+                                <td style="font-size:20px;">Parent Name: </td>
+                                <th style="font-size:20px;"><%= parentname%></th>
+                                </tr>
+                                <tr>
+                                <td style="font-size:20px;">E-mail Id:</td>
+                                <th style="font-size:20px;"><%= emailid%></th>
+                                </tr>
+                                <tr>
+                                <td style="font-size:20px;">Phone Number: </td>
+                                <th style="font-size:20px;"><%= phonenumber%></th>
+                                </tr>
+                                <tr>
+                                <td style="font-size:20px;">Date of Birth: </td>
+                                <th style="font-size:20px;"><%= dob%></th>
+                                </tr>
+                                <tr>
+                                <td style="font-size:20px;">Department: </td>
+                                <th style="font-size:20px;"><%= department%></th>
+                                </tr>
+                                <tr>
+                                <td style="font-size:20px;">Gender: </td>
+                                <th style="font-size:20px;"><%= gender%></th>
+                                </tr>
 			                </table>
 		                </div>
-		                <br><br><br>
+		                <br><br><br><br><br><br><br>
 		                
 				       
         </div>
@@ -123,7 +136,7 @@ String gender=(String) session.getAttribute("gender");
 
 </div>
 </body>
-<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:5px solid white;" >
+<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:5px solid white;border-top:none;" >
 	                <img src="images/img11.png" style="width: 80px; height: 80px;" >
 
 	                <p style="color: whitesmoke;">Techno Main Salt Lake is a unit of the Techno India Group,

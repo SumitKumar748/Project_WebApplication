@@ -6,44 +6,47 @@
 <meta charset="ISO-8859-1">
 <link href="css/allinone.css" rel="stylesheet" type="text/css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="icon" type="image/png" href="../images/icon.ico">
+<link rel="icon" type="image/png" href="images/icon.ico">
 <title>Dashboard</title>
 </head>
 
-<body style="max-width:1770px;max-height:980px;">
+<body style="max-width:1980px;max-height:1000px;">
 
-		 <nav style="display:flex;justify-content:right; gap:4.5rem;padding:10px;font-size:18px;background-color:black;border:5px solid white;border-bottom:none;">
+		 <nav style="display:flex;justify-content:right; gap:4.5rem;padding:10px;font-size:18px;
+		             background-color:black;border:2px solid white;border-bottom:none;max-width:100%;">
 						  <a href="tlogin.jsp" style="text-decoration:none;color:white;">Sign Out</a>
 		  </nav>
 
-		<div id="maindiv" style="margin:0px;max-width:1980px;height:auto;">
-				     <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;border-bottom:2px white solid;">
-					     <img src="images/thelogo.png" style="width: 60px;
-																    height: 60px;
 
-																    background-color:white;">
 
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div style="display:flex;justify-content:center;flex-direction:column;">
 
-					     <label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
-
-					     <label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
-				    	</div>
-		</div>
 
 		<div style="
 			    max-width:100%;
-			    border-top:none;
 			 	background-image:url('images/backwebsite.jpg');
 			    max-width:100%;;
 			    background-size: cover;
 			    background-position: center;
 			    background-repeat: no-repeat;
 			    background-attachment: fixed;
-			    border:5px solid white;
+			    border:2px solid white;
+			    border-top:5px solid white;
 			   ">
+                <div  style="display:flex;justify-content:center;padding:20px;
+                             border:2px solid white;border-bottom:5px solid white;
+                             border-right:none;border-left:none;width:50%;margin:auto;">
+                             <img src="images/thelogo.png" style="width: 60px;
+                                                                        height: 60px;
+                                                                        background-color:white;border:2px solid red;">
 
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div style="display:flex;justify-content:center;flex-direction:column;">
+
+                                 <label style="font-size:40px;color:red;padding:auto;font-weight:bold;"> <b>TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</b></label>
+
+                                 <label style="font-size:15px;color:red;padding:auto;display:flex;justify-content:right;"><b> Affiliated by MAKAUT</b></label>
+                            </div>
+                </div>
 
 			    <div class="d3w" style="margin-top:20px; margin-left:20px;display:flex;">
 				        <label style="color:white;font-size:35px;font-weight:bold;text-align:center">Welcome, Dr. Sumit Kumar </label>
@@ -58,11 +61,11 @@
 									<label style="width: 100%; margin:auto;margin-left:50px;font-size: 25px;cursor:pointer;">My Credentials</label>
 
 								</div>
-								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Teacher/StAllSubjects.jsp';">
+								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Teacher/AssignSubjects.jsp';">
 									<img src="images/tsubjects.png" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
 									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Assigned Subjects</label>
 								</div>
-								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:24px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='';">
+								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:24px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Teacher/editcredential.jsp';">
                                     <img src="images/editdetail.png" height="53px" width="95px" alt="image not available" style="margin-left:20px;">
                                     <label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Edit Credential</label>
                                 </div>
@@ -70,10 +73,10 @@
 				</div>
 
 
-				<br><br><br><br>
+				<br><br><br>
 				<div class="menu" style="width:80%;">
 
-								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;" onclick="window.location.href='Students/StPCAmarks.jsp';">
+								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;" onclick="window.location.href='teacherwelcome.jsp';">
 
 									<img src="images/meeting.jpg" height="75px" width="85px" alt="image not available" style="margin-left:20px;">
 									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Online Meeting</label>
@@ -98,16 +101,16 @@
 				</div>
 
 
-				<br><br><br><br>
+				<br><br><br>
 				<div class="menu" style="width:50%;">
 
 
-								<div style="display:flex;cursor:pointer;border-radius:5px;border:10px double red;background:white;padding:28px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Students/StPCAmarks.jsp';">
+								<div style="display:flex;cursor:pointer;border-radius:5px;border:10px double red;background:white;padding:28px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='teacherwelcome.jsp';">
 
 									<label style="margin: auto;font-size: 30px;cursor:pointer;">Upload CA Marks</label>
 
 								</div>
-								<div style="display:flex;cursor:pointer;border-radius:5px;border:10px double red;background:white;padding:28px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Students/StCamarks.jsp';">
+								<div style="display:flex;cursor:pointer;border-radius:5px;border:10px double red;background:white;padding:28px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='teacherwelcome.jsp';">
 
 									<label style="margin: auto;font-size: 30px;cursor:pointer;">Upload PCA Marks</label>
 
@@ -123,7 +126,7 @@
 		</div>
 
 </body>
-<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:5px solid white;border-top:none;" >
+<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:2px solid white;border-top:none;" >
 	                <img src="images/img11.png" style="width: 80px; height: 80px;" >
 
 	                <p style="color: whitesmoke;">Techno Main Salt Lake is a unit of the Techno India Group,

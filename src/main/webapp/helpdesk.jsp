@@ -7,42 +7,44 @@
     <link rel="icon" type="image/png" href="images/icon.ico">
     
 </head>
-<body style="margin:0px;border:2px solid white;max-width:1980px;height:900px;">
-		  <nav style="display:flex;justify-content:center; gap:4.5rem;padding:10px;font-size:18px;background-color:black;border:5px solid white;border-bottom:none;">
-						  <a href="index.jsp" style="text-decoration:none;color:white;">HOME</a>
-						  <a href="register.jsp" style="text-decoration:none;color:white;">REGISTRATION FORM</a>
-						  <a href="slogin.jsp" style="text-decoration:none;color:white;">STUDENT LOGIN</a>
-						  <a href="tlogin.jsp" style="text-decoration:none;color:white;">TEACHER LOGIN</a>
-						  <a href="helpdesk.jsp" style="text-decoration:none;color:white;">ANNOUNCEMENTS</a>
-		  </nav>
-		 
-<div id="maindiv" style="margin:0px;max-width:1980px;height:auto;">
+<body style="margin:0px;max-width:1980px;">
+		  <nav style="display:flex;justify-content:center; gap:4.5rem;padding:10px;
+          font-size:18px;background-color:black;border:5px solid white;border-bottom:5px solid white;">
+                          <a href="index.jsp" style="text-decoration:none;color:white;">HOME</a>
+                          <a href="register.jsp" style="text-decoration:none;color:white;">REGISTRATION FORM</a>
+                          <a href="slogin.jsp" style="text-decoration:none;color:white;">STUDENT LOGIN</a>
+                          <a href="tlogin.jsp" style="text-decoration:none;color:white;">TEACHER LOGIN</a>
+                          <a href="helpdesk.jsp" style="text-decoration:none;color:white;">ANNOUNCEMENTS</a>
+          </nav>
 
-	     <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;">
-		     <img src="images/thelogo.png" style="width: 60px;
-													    height: 60px;
-													    background-color:white;">
-													    
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;									  
-		     <div style="display:flex;justify-content:center;flex-direction:column;">									  
+        <div class="background" style="border:5px solid white;border-top:none;
+            background-image: url('images/backwebsite.jpg');
+            width:auto;
+            margin:0px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height:800px;
+            ">
 
-				<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
 
-				<label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
-			</div>
-	    </div>
-	  
+              <div  style="display:flex;justify-content:center;padding:20px;
+                      border-right:none;border-left:none;width:50%;margin:auto;">
+                      <img src="images/thelogo.png" style="width: 60px;
+                                                                 height: 60px;
+                                                                 background-color:white;border:2px solid red;">
+                                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <div style="display:flex;justify-content:center;flex-direction:column;">
 
-	<div class="background" style="border:5px solid white;border-top:none;
-			 	background-image: url('images/backwebsite.jpg');
-			    max-width:100%;;
-			    background-size: cover;
-			    background-position: center; 
-			    background-repeat: no-repeat;
-			    background-attachment: fixed;
-			    ">
+                          <label style="font-size:40px;color:red;padding:auto;font-weight:bold;"> <b>TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</b></label>
+
+                          <label style="font-size:15px;color:red;padding:auto;display:flex;justify-content:right;"><b> Affiliated by MAKAUT</b></label>
+                     </div>
+              </div>
+              <br><br>
 	
-		   <div style="display: flex;max-width:100%;height:700px;" >
+		   <div style="display: flex;max-width:100%;" >
 		        <div style="text-align:center;background-color: #B2B5E0;height: 520px;width: 50%;
 						    margin: auto;
 						    padding: 10px 0px 10px 0px;
@@ -118,13 +120,13 @@
 
 
 </body>
-<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:2px solid white;" >
+<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:5px white solid;border-top:none;" >
 	                <img src="images/img11.png" style="width: 80px; height: 80px;" >
 
 	                <p style="color: whitesmoke;">Techno Main Salt Lake is a unit of the Techno India Group,
-	                    situated at the Salt Lake Campus.It is an elite academic 
+	                    situated at the Salt Lake Campus.It is an elite academic
 	                    institution which caters to bright students and is committed to
-	                    providing them the best education and opportunities 
+	                    providing them the best education and opportunities
 	                    for future career growth.</p>
 </footer>
 </html>

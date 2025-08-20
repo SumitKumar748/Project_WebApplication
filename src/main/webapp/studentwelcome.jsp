@@ -9,11 +9,9 @@
 <link rel="icon" type="image/png" href="images/icon.ico">
 <title>Welcome</title>
 </head>
-<body style="background-color: #B2B5E0;max-width:1980px;margin:0px;">
+<body style="max-width:1980px;margin:0px;max-height:1080px;">
 <%
-
 String studentname=(String) session.getAttribute("studentname");
-
 %>
 <% 
 if (session.getAttribute("studentname") == null) {
@@ -26,32 +24,14 @@ if (session.getAttribute("studentname") == null) {
 						  <a href="slogin.jsp" style="text-decoration:none;color:white;">Sign Out</a>
 		  </nav>
 
-		<div id="maindiv" style="margin:0px;max-width:1980px;height:auto;">
-				     <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;border-bottom:2px white solid;">
-					     <img src="images/thelogo.png" style="width: 60px;
-																    height: 60px;
-																    
-																    background-color:white;">
-																    
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div style="display:flex;justify-content:center;flex-direction:column;">									  
 
-					     <label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
-
-					    
-
-					     <label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
-				    	</div>
-		</div>
-    
 		<div style="
-			    max-width:100%;
 			    border-top:none;
 			 	background-image:url('images/backwebsite.jpg');
 			 	overflow: hidden;
-			 	
 			 	background-color: rgba(0, 0, 0, 0.5);
-			    max-width:100%;;
+			    width:auto;
+			    height:900px;
 			    background-size: cover;
 			    background-position: center; 
 			    background-repeat: no-repeat;
@@ -59,7 +39,21 @@ if (session.getAttribute("studentname") == null) {
 			    border:5px solid white;
 			   ">	
 			    
-			    
+			    <div  style="display:flex;justify-content:center;padding:20px;
+                     border:2px solid white;border-bottom:5px solid white;
+                     border-right:none;border-left:none;width:50%;margin:auto;">
+                     <img src="images/thelogo.png" style="width: 60px;
+                                                                height: 60px;
+                                                                background-color:white;border:2px solid red;">
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div style="display:flex;justify-content:center;flex-direction:column;">
+
+                         <label style="font-size:40px;color:red;padding:auto;font-weight:bold;"> <b>TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</b></label>
+
+                         <label style="font-size:15px;color:red;padding:auto;display:flex;justify-content:right;"><b> Affiliated by MAKAUT</b></label>
+                    </div>
+                </div>
 			    <div class="d3w" style="margin-top:20px; margin-left:20px;display:flex;">
 				        <label style="color:white;font-size:35px;font-weight:bold;text-align:center">Welcome, <%= studentname%></label>
 			    </div>
@@ -89,7 +83,7 @@ if (session.getAttribute("studentname") == null) {
 				</div>
 				
 				
-				<br><br><br><br>
+				<br><br>
 				<div class="menu" style="width:80%;">
 								
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;" onclick="window.location.href='Students/StPCAmarks.jsp';">
@@ -98,18 +92,19 @@ if (session.getAttribute("studentname") == null) {
 									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">PCA Marks</label>
 
 								</div>
-								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='';">
+								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:24px 18px 24px 18px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Students/studenteditcredential.jsp';">
+
+                                    <img src="images/editdetail.png" height="53px" width="95px" alt="image not available" style="margin-left:20px;">
+                                    <label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Edit Credential</label>
+
+                                </div>
+								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px 15px 10px 15px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='';">
 									
 									<img src="images/registration.jpg" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
-									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Registration Form</label>
+									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Semester Registration</label>
 
 								</div>
-								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:24px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='';">
-									
-									<img src="images/editdetail.png" height="53px" width="95px" alt="image not available" style="margin-left:20px;">
-									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Edit Credential</label>
 
-								</div>
 								
 								
 								
@@ -117,7 +112,7 @@ if (session.getAttribute("studentname") == null) {
 				</div>
 				
 				
-				<br><br><br><br>
+				<br><br>
 				<div class="menu" style="width:50%;">
 								
 								

@@ -8,7 +8,7 @@
 <link href="../css/allinone.css" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/png" href="../images/icon.ico">
 </head>
-<body style="background-color: #B2B5E0;margin:0px;">
+<body style="max-width:1980px;max-height:1080px;margin:0px;">
 
 		<nav style="display:flex;justify-content:right; gap:4rem;padding:10px;font-size:18px;background-color:black;border:5px solid white;border-bottom:none;">
 								  <a href="../studentwelcome.jsp" style="text-decoration:none;color:white;">Dashboard</a>
@@ -24,20 +24,21 @@
 			    background-repeat: no-repeat;
 			    background-attachment: fixed;
 			    height:750px;">
-		        <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;border-bottom:10px solid white;border-right:none;border-left:none;">
-					     <img src="../images/thelogo.png" style="width: 60px;
-																    height: 60px;
-																    
-																    background-color:white;">
-																    
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div style="display:flex;justify-content:center;flex-direction:column;">									  
+		        <div  style="display:flex;justify-content:center;padding:20px;
+                     border:2px solid white;border-bottom:5px solid white;
+                     border-right:none;border-left:none;width:50%;margin:auto;">
+                     <img src="../images/thelogo.png" style="width: 60px;
+                                                                height: 60px;
+                                                                background-color:white;border:2px solid red;">
 
-						     <label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
-	
-						     <label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
-				    	</div>
-				</div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div style="display:flex;justify-content:center;flex-direction:column;">
+
+                         <label style="font-size:40px;color:red;padding:auto;font-weight:bold;"> <b>TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</b></label>
+
+                         <label style="font-size:15px;color:red;padding:auto;display:flex;justify-content:right;"><b> Affiliated by MAKAUT</b></label>
+                    </div>
+                </div>
 	
 	     <br>
 		
@@ -54,7 +55,7 @@
 							    height: auto;
 							    ">
                             <br>
-		            		<span style="font-size:45px;"><b>Continuous Assessment(CA) Marks</b></span><br>
+		            		<span style="font-size:50px;"><b>Continuous Assessment(CA) Marks</b></span><br><br><br>
                 	
 			                <table border="n" style="width:95%;border:1px solid black;text-align:center;border-radius:5px;">
 			                
@@ -110,7 +111,7 @@
 </div>
 	
 </body>
-<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:5px solid white;" >
+<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:5px solid white;border-top:none;" >
 	                <img src="../images/img11.png" style="width: 80px; height: 80px;" >
 
 	                <p style="color: whitesmoke;">Techno Main Salt Lake is a unit of the Techno India Group,

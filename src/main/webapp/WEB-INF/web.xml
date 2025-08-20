@@ -22,4 +22,14 @@
         <servlet-name>studentlogin</servlet-name>
         <url-pattern>/studentlogin</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>teacherlogin</servlet-name>
+        <servlet-class>com.servlet.teacherlogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>teacherlogin</servlet-name>
+        <url-pattern>/teacherlogin</url-pattern>
+    </servlet-mapping>
 </web-app>

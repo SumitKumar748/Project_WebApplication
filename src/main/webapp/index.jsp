@@ -13,44 +13,41 @@
 <body style="margin:0px;max-width:1980px;">
 		 
 		  
-		  <nav style="display:flex;justify-content:center; gap:4.5rem;padding:10px;font-size:18px;background-color:black;border:5px solid white;border-bottom:none;">
+		  <nav style="display:flex;justify-content:center; gap:4.5rem;padding:10px;font-size:18px;
+		               background-color:black;border:5px solid white;border-bottom:5px solid white;">
 						  <a href="index.jsp" style="text-decoration:none;color:white;">HOME</a>
 						  <a href="register.jsp" style="text-decoration:none;color:white;">REGISTRATION FORM</a>
 						  <a href="slogin.jsp" style="text-decoration:none;color:white;">STUDENT LOGIN</a>
 						  <a href="tlogin.jsp" style="text-decoration:none;color:white;">TEACHER LOGIN</a>
 						  <a href="helpdesk.jsp" style="text-decoration:none;color:white;">ANNOUNCEMENTS</a>
 		  </nav>
-		 <div id="maindiv" style="margin:0px;max-width:1980px;height:auto;">
-				     <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;border-bottom:5px white solid;">
-					     <img src="images/thelogo.png" style="width: 60px;
-																    height: 60px;
-																    background-color:white;">
-																    
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div style="display:flex;justify-content:center;flex-direction:column;">									  
 
-					     <label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
-
-					    
-
-					     <label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
-				    	</div>
-		</div>
-				  
-		
-		 	<div class="background" style="border:5px solid white;border-top:none;
-			 	background-image: url('images/backwebsite.jpg');
-			    max-width:100%;;
-			    background-size: cover;
-			    background-position: center; 
-			    background-repeat: no-repeat;
-			    background-attachment: fixed;
-			    ">
+        <div class="background" style="border:5px solid white;border-top:none;
+            background-image: url('images/backwebsite.jpg');
+            max-width:100%;;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            ">
 		 	
-			
+              <div  style="display:flex;justify-content:center;padding:20px;
+
+                   border-right:none;border-left:none;width:50%;margin:auto;">
+                   <img src="images/thelogo.png" style="width: 60px;
+                                                              height: 60px;
+                                                              background-color:white;border:2px solid red;">
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div style="display:flex;justify-content:center;flex-direction:column;">
+
+                       <label style="font-size:40px;color:red;padding:auto;font-weight:bold;"> <b>TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</b></label>
+
+                       <label style="font-size:15px;color:red;padding:auto;display:flex;justify-content:right;"><b> Affiliated by MAKAUT</b></label>
+                  </div>
+              </div>
 			
 		   
-		      <div style="width:90%; font-size: 15px;margin:auto;
+		      <div style="width:80%; font-size: 15px;margin:auto;
 											    color: black;
 											    height:50%;
 											    margin: auto;
@@ -102,7 +99,7 @@
 		       </div>
 		            <br><br>
 		       
-		            <div style="background:white;width: 90%;
+		            <div style="background:white;width: 75%;
 											    margin: auto;
 											    padding: 10px 0px 10px 0px;
 											    border-radius: 10px;">
@@ -161,11 +158,11 @@
 		            <br>
 		
 		
-		            <div style="background:white;width: 90%;
+		            <div style="background:white;width: 70%;
 											    margin: auto;
 											    padding: 10px 0px 10px 0px;
 											    border-radius: 10px;">
-		                <center><span style="font-size: 70px;text-align:center;color: blue;">Upcoming Events</span></center>
+		                <center><span style="font-size: 70px;text-align:center;color: black;">Upcoming Events</span></center>
 		            	<div style="width:100%;justify-content: center;">
 		                    <center>
 		                    <a href="#">
@@ -189,7 +186,7 @@
 		
 		            <br><br>
 		
-		            <div class="recruiters1" style="background:white;width: 90%;
+		            <div class="recruiters1" style="background:white;width: 75%;
 											    margin: auto;
 											    padding: 10px;
 											    border-radius: 10px;">
@@ -200,7 +197,7 @@
 		                    <a href="#">
 		                    <img src="images/accenture.png" alt="Image 1" class="imgsize" style="width: auto; height: 55px;">
 		                    <img src="images/asainpaints.png" alt="Image 2" class="imgsize" style="width: auto; height: 55px;">
-		                    <img src="images/blue star.png" alt="Image 3" class="imgsize" style="width: auto; height: 55px;" >
+		                    <img src="images/blue star.png" alt="Image 3" class="imgsize" style="width:auto; height: 30px;" >
 		                    <img src="images/capgemini.png" alt="Image 4" class="imgsize" style="width: auto; height: 55px;">
 		                    <img src="images/cognizant.jpeg" alt="Image 5" class="imgsize" style="width: auto; height: 55px;">
 		                    <img src="images/deloittte.png" alt="Image 6" class="imgsize"style="width: auto; height: 55px;">
@@ -215,9 +212,9 @@
 		               
 		                <div class="automoving-images" style="width:auto;justify-content:center;display:flex;">
 		                    <a href="#" >
-		                    <img src="images/hp.png" alt="Image 10" class="imgsize" style="width: auto; height: 55px;">
+		                    <img src="images/hp.png" alt="Image 10" class="imgsize" style="width: auto; height: 65px;">
 		                    <img src="images/IBM.png" alt="Image 11" class="imgsize" style="width: auto; height: 55px;">
-		                    <img src="images/infosys.png" alt="Image 12" class="imgsize" style="width: auto; height: 55px;">
+		                    <img src="images/infosys.png" alt="Image 12" class="imgsize" style="width: auto; height: 35px;">
 		                    <img src="images/intel.jpeg" alt="Image 13" class="imgsize" style="width: auto; height: 55px;">
 		                    <img src="images/isuzu.jpeg" alt="Image 14" class="imgsize" style="width: auto; height: 55px;">
 		                    <img src="images/jhonsons.png" alt="Image 15" class="imgsize" style="width: auto; height: 55px;">
